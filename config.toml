@@ -57,11 +57,11 @@ staticDir = ["static", "../../assets/others"]         # 静态文件目录
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "en"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-en.netlify.com"
-    weight = 5
+  #[[menu.main]]
+   # identifier = "en"
+   # name = '<i class="fas fa-language fa-fw"></i>'
+   # url = "https://hugo-loveit-en.netlify.com"
+   # weight = 0
 
 [params]
   version = "5.x"                                        # LoveIt 主题版本
@@ -69,7 +69,7 @@ staticDir = ["static", "../../assets/others"]         # 静态文件目录
   keywords = ["eden", "Theme", "Hugo", "blog"]           # 网站关键词
 
                                                       #### 主页配置
-  home_mode = "other"                                     # [post, other] 主页模式
+  home_mode = "post"                                     # [post, other] 主页模式
   home_paginate = 6                                      # post 主页模式下，主页每页显示的文章数目，默认等于 paginate 值
   avatar = "images/avatar.png"                           # 主页显示的头像路径
   subtitle = "一名喜欢成就感的学习者"               # 主页显示的网站副标题
@@ -119,10 +119,10 @@ staticDir = ["static", "../../assets/others"]         # 静态文件目录
   [params.social]                                        # 主页的社交信息设置
     GitHub = "sgshy1995"
     #Linkedin = "xxxx"
-    Twitter = "/"
+    #Twitter = "/"
     Instagram = "/"
     #Email = "singlesaulwork@gmail.com"
-    Facebook = "/"
+    #Facebook = "/"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -136,7 +136,7 @@ staticDir = ["static", "../../assets/others"]         # 静态文件目录
     #Reddit = "xxxx"
     #Codepen = "xxxx"
     #Bitbucket = "xxxx"
-    #Stackoverflow = "xxxx"
+    Stackoverflow = "#"
     Weibo = "u/3813966468?topnav=1&wvr=6&topsug=1&is_hot=1"
     #Odnoklassniki = "xxxx"
     #VKontakte = "xxxx"
@@ -155,7 +155,7 @@ staticDir = ["static", "../../assets/others"]         # 静态文件目录
     #Hackernews = "xxxx"
     #Kickstarter = "xxxx"
     #Patreon = "xxxx"
-    #Steam = "xxxx"
+    Steam = "xxxx"
     #Twitch = "xxxx"
     #Strava = "xxxx"
     #Skype = "xxxx"
