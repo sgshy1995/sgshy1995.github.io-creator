@@ -1,5 +1,5 @@
 ---
-title: "WebPack入门：从安装到配置"
+title: "Webpack入门：从安装到配置"
 date: 2019-12-01T16:22:42+08:00
 lastmod: 2019-12-01T18:22:42+08:00
 draft: false

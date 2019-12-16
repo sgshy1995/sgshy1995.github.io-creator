@@ -1,5 +1,5 @@
 ---
-title: "WebPack高级：环境配置、引入和懒加载"
+title: "Webpack高级：环境配置、引入和懒加载"
 date: 2019-12-05T16:22:42+08:00
 lastmod: 2019-12-05T18:22:42+08:00
 draft: false
