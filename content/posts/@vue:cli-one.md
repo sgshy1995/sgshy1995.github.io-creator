@@ -1,5 +1,5 @@
 ---
-title: "@Vue/Cli入门：安装与创建项目"
+title: "Vue：安装 Vue-cli 与创建项目"
 date: 2019-12-13T16:22:42+08:00
 lastmod: 2019-12-13T18:22:42+08:00
 draft: true
@@ -24,7 +24,7 @@ math: true
 
 从 Webpack 到 [@Vue/Cli](https://cli.vuejs.org/zh/guide/)。
 
-Vue CLI 是一个基于 Vue.js 进行快速开发的完整系统，提供了很多功能：
+Vue-cli 是一个基于 Vue.js 进行快速开发的完整系统，提供了很多功能：
 
 ### CLI
 
@@ -130,3 +130,13 @@ $ yarn serve
 ```
 
 当你访问本地地址时，应该可以看到一个带有 Vue logo 和 相关功能介绍的页面。
+
+## 使用 codesandbox.io
+
+你也可以使用 codesandbox.io 直接生成一个可以在线修改和预览的 vue 项目。
+
+- 进入 [官方网站](https://codesandbox.io)。
+- 点击右上角的 "Create Sandbox"。
+- 创建 Vue (vue-cli)。
+- 修改，保存。
+- 选择 File > Export to ZIP，即可导出代码到 zip 压缩文件。
